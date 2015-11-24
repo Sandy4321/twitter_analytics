@@ -36,8 +36,8 @@ def get_texts(tf):
             line_deco = json.loads(line)
             this_text = str(line_deco[u'text'])
             this_score = get_scores(this_text)
-            print this_text, " ", this_score
-#            print this_text
+#            print this_text, " ", this_score
+            print this_score
 
         except:
             # TODO: print a "NULL" to non-English text
